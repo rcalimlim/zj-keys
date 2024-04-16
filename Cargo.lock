@@ -1763,15 +1763,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "rust-plugin-example"
-version = "0.1.0"
-dependencies = [
- "ansi_term",
- "chrono",
- "zellij-tile",
-]
-
-[[package]]
 name = "rustc-demangle"
 version = "0.1.23"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2811,4 +2802,13 @@ dependencies = [
  "url",
  "uuid",
  "vte 0.11.1",
+]
+
+[[package]]
+name = "zj-keys"
+version = "0.1.0"
+dependencies = [
+ "ansi_term",
+ "chrono",
+ "zellij-tile",
 ]
